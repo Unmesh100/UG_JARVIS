@@ -60,6 +60,10 @@ function takeCommand(message){
         window.open("https://google.com", "_blank");
         speak("Opening Google...")
     }
+     else if(message.includes("open linkedin")){
+        window.open("https://linkedin.com", "_blank");
+        speak("Opening Linkedin...")
+    }    
     else if(message.includes("open youtube")){
         window.open("https://youtube.com", "_blank");
         speak("Opening Youtube...")
@@ -68,7 +72,66 @@ function takeCommand(message){
         window.open("https://facebook.com", "_blank");
         speak("Opening Facebook...")
     }
-
+       else if(message.includes("open instagram")){
+        window.open("https://instagram.com", "_blank");
+        speak("Opening Instagram...")
+    }
+   else if(message.includes("open medium")){
+        window.open("https://medium.com", "_blank");
+        speak("Opening Medium...")
+    }
+  else if(message.includes("open x")){
+        window.open("https://x.com", "_blank");
+        speak("Opening X...")
+    }	
+  else if(message.includes("open stackoverflow")){
+        window.open("https://stackoverflow.com", "_blank");
+        speak("Opening Stack Overflow...")
+    }	  
+  else if(message.includes("open chatgpt")){
+        window.open("https://chatgpt.com", "_blank");
+        speak("Opening ChatGPT...")
+    }
+  else if(message.includes("open github")){
+        window.open("https://github.com", "_blank");
+        speak("Opening Github...")
+    }
+  else if(message.includes("open flipkart")){
+        window.open("https://flipkart.com", "_blank");
+        speak("Opening Flipkart...")
+    }
+  else if(message.includes("open amazon")){
+        window.open("https://amazon.in", "_blank");
+        speak("Opening Amazon...")
+    }
+  else if(message.includes("open discord")){
+        window.open("https://discord.com", "_blank");
+        speak("Opening Discord...")
+    }
+  else if(message.includes("open leetcode")){
+        window.open("https://leetcode.com", "_blank");
+        speak("Opening Leetcode...")
+    }
+else if(message.includes("open codeforces")){
+        window.open("https://codeforces.com", "_blank");
+        speak("Opening Codeforces...")
+    }
+else if(message.includes("open hackerrank")){
+        window.open("https://hackerrank.com", "_blank");
+        speak("Opening Hackerrank...")
+    }
+else if(message.includes("open github")){
+        window.open("https://github.com", "_blank");
+        speak("Opening Github...")
+    }
+else if(message.includes("open geeksforgeeks")){
+        window.open("https://geeksforgeeks.org", "_blank");
+        speak("Opening Geeks for Geeks...")
+    }
+else if(message.includes("open codechef")){
+        window.open("https://codechef.org", "_blank");
+        speak("Opening Codechef...")
+    }
     else if(message.includes('what is') || message.includes('who is') || message.includes('what are')) {
         window.open(`https://www.google.com/search?q=${message.replace(" ", "+")}`, "_blank");
         const finalText = "This is what i found on internet regarding " + message;
