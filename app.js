@@ -112,9 +112,9 @@ function takeCommand(message){
         window.open("https://leetcode.com", "_blank");
         speak("Opening Leetcode...")
     }
-else if(message.includes("open codeforces")){
+else if(message.includes("open code forces")){
         window.open("https://codeforces.com", "_blank");
-        speak("Opening Codeforces...")
+        speak("Opening Code Forces...")
     }
 else if(message.includes("open hackerrank")){
         window.open("https://hackerrank.com", "_blank");
